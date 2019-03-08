@@ -1,3 +1,3 @@
 <?php
 
-Route::view('/', 'tuple');
+Route::view('/', 'pricing-selection');

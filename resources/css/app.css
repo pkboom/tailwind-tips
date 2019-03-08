@@ -15,4 +15,13 @@ a {
   background: #c8f2ff;
 }
 
+.btn {
+  @apply .uppercase .tracking-wide .text-xs .px-6 .py-2 .rounded;
+}
+
+.btn-blue {
+   @apply .bg-blue .text-white;
+}
+
+
 @tailwind utilities;
