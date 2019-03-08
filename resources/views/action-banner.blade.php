@@ -9,7 +9,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/actionbanner.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body class="antialiased font-sans">
@@ -20,12 +20,12 @@
                     <h3 class="text-3xl mb-6">
                         It's Kinda Like Netflix for Your Career!
                     </h3>
-            
+
                     <p class="mb-10">
                         Learn practical, modern web development, through expert screencasts. Most video tutorials are boring. These aren't. Ready
                         to binge?
                     </p>
-            
+
                     <p>
                         <a href="#" class="py-3 px-6 rounded-full border border-white text-white hover:text-white hover:bg-blue hover:border-blue">Get Started!</a>
                     </p>
@@ -35,4 +35,4 @@
     </section>
 </body>
 
-</html>
+</html> 

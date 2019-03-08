@@ -6243,6 +6243,86 @@ a {
   z-index: auto;
 }
 
+.bg-grad-blue-top {
+  background: linear-gradient(to top, #6cb2eb, #2779bd);
+}
+
+.bg-grad-blue-left {
+  background: linear-gradient(to left, #6cb2eb, #2779bd);
+}
+
+.bg-grad-blue-right {
+  background: linear-gradient(to right, #6cb2eb, #2779bd);
+}
+
+.bg-grad-blue-bottom {
+  background: linear-gradient(to bottom, #6cb2eb, #2779bd);
+}
+
+.bg-grad-red-top {
+  background: linear-gradient(to top, #ef5753, #cc1f1a);
+}
+
+.bg-grad-red-left {
+  background: linear-gradient(to left, #ef5753, #cc1f1a);
+}
+
+.bg-grad-red-right {
+  background: linear-gradient(to right, #ef5753, #cc1f1a);
+}
+
+.bg-grad-red-bottom {
+  background: linear-gradient(to bottom, #ef5753, #cc1f1a);
+}
+
+.bg-grad-green-top {
+  background: linear-gradient(to top, #51d88a, #1f9d55);
+}
+
+.bg-grad-green-left {
+  background: linear-gradient(to left, #51d88a, #1f9d55);
+}
+
+.bg-grad-green-right {
+  background: linear-gradient(to right, #51d88a, #1f9d55);
+}
+
+.bg-grad-green-bottom {
+  background: linear-gradient(to bottom, #51d88a, #1f9d55);
+}
+
+.bg-grad-purple-top {
+  background: linear-gradient(to top, #a779e9, #794acf);
+}
+
+.bg-grad-purple-left {
+  background: linear-gradient(to left, #a779e9, #794acf);
+}
+
+.bg-grad-purple-right {
+  background: linear-gradient(to right, #a779e9, #794acf);
+}
+
+.bg-grad-purple-bottom {
+  background: linear-gradient(to bottom, #a779e9, #794acf);
+}
+
+.bg-grad-orange-top {
+  background: linear-gradient(to top, #faad63, #de751f);
+}
+
+.bg-grad-orange-left {
+  background: linear-gradient(to left, #faad63, #de751f);
+}
+
+.bg-grad-orange-right {
+  background: linear-gradient(to right, #faad63, #de751f);
+}
+
+.bg-grad-orange-bottom {
+  background: linear-gradient(to bottom, #faad63, #de751f);
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

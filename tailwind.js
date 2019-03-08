@@ -932,6 +932,9 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    require('./resources/js/plugins/tw-gradients.js')({
+      colors: ['blue', 'red', 'green', 'purple', 'orange']
+    })
   ],
 
 

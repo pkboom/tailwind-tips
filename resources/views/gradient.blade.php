@@ -9,10 +9,10 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/actionbanner.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body class="antialiased font-sans bg-grad-blue-top h-screen">
 </body>
 
-</html>
+</html> 
