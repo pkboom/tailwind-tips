@@ -1,5 +1,3 @@
 <?php
 
-use Faker\Generator as Faker;
-
-Route::view('/', 'gradient');
+Route::view('/', 'tuple');

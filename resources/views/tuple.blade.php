@@ -9,7 +9,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/tuple.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body class="bg-indigo-dark font-sans antialiased">
@@ -45,7 +45,8 @@
 
                     <p class="mb-4 lg:mb-6">That sucks, because the remaining tools like Skype and Hangouts don't give both people full keyboard and mouse control.</p>
 
-                    <p class="mb-4 lg:mb-6">Have you ever tried to dictate some code for your pair to write? Or narrated a set of vim commands? <span class="italic">Not fun.</spn></p>
+                    <p class="mb-4 lg:mb-6">Have you ever tried to dictate some code for your pair to write? Or narrated a set of vim commands? <span class="italic">Not fun.</spn>
+                    </p>
 
                     <p class="mb-4 lg:mb-6">Another problem: if you're going to type on a remote machine, the connection has to be super low-latency. This is the sort of thing that videoconferencing tools just don't care much about.</p>
 
@@ -134,15 +135,15 @@
                 <div class="md:flex text-lg py-8 border-t-2 border-grey-darkest leading-normal">
                     <p class="w-full md:w-2/5 font-semibold mb-2 md:mb-0">What exactly are you making?</p>
                     <p class="w-full md:w-3/5 text-blue-lighter">A tool for programmers to pair on the same machine regardless of how far apart they are. Both people will have full control
-                    of the machine with their own mouse and keyboard. We also plan to spend a ridiculous amount of effort on making things super
-                    low-latency. That's the sort of thing Skype will never care about, but makes an enormous difference when trying to type on
-                    a remote machine.</p>
+                        of the machine with their own mouse and keyboard. We also plan to spend a ridiculous amount of effort on making things super
+                        low-latency. That's the sort of thing Skype will never care about, but makes an enormous difference when trying to type on
+                        a remote machine.</p>
                 </div>
                 <div class="md:flex text-lg py-8 border-t-2 border-grey-darkest leading-normal">
                     <p class="w-full md:w-2/5 font-semibold mb-2 md:mb-0">And who are you guys?</p>
                     <p class="w-full md:w-3/5 text-blue-lighter">
-                        <a href="#" class="text-white font-semibold">Ben</a>, 
-                        <a href="#" class="text-white font-semibold">Joel</a>, and 
+                        <a href="#" class="text-white font-semibold">Ben</a>,
+                        <a href="#" class="text-white font-semibold">Joel</a>, and
                         <a href="#" class="text-white font-semibold">Spencer</a>;
                         three programmers who aren't happy with the options for remote pairing out there.</p>
                 </div>
@@ -157,4 +158,4 @@
     </div>
 </body>
 
-</html>
+</html> 

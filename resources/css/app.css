@@ -11,4 +11,8 @@ a {
   color: rgba(255, 255, 255, .5);
 }
 
+::selection {
+  background: #c8f2ff;
+}
+
 @tailwind utilities;

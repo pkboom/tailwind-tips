@@ -539,6 +539,14 @@ a {
   color: rgba(255, 255, 255, .5);
 }
 
+::-moz-selection {
+  background: #c8f2ff;
+}
+
+::selection {
+  background: #c8f2ff;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;
