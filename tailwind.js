@@ -168,6 +168,21 @@ module.exports = {
   */
 
   fonts: {
+    'display': [
+      'Harmonia Sans Pro Cyr',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Segoe UI',
+      'Roboto',
+      'Oxygen',
+      'Ubuntu',
+      'Cantarell',
+      'Fira Sans',
+      'Droid Sans',
+      'Helvetica Neue',
+      'sans-serif',
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
@@ -469,6 +484,7 @@ module.exports = {
     '24': '6rem',
     '32': '8rem',
     '48': '12rem',
+    '56': '14rem',
     '64': '16rem',
     '1/2': '50%',
     '1/3': '33.33333%',
@@ -636,6 +652,7 @@ module.exports = {
 
   padding: {
     'px': '1px',
+    '2px': '2px',
     '0': '0',
     '1': '0.25rem',
     '2': '0.5rem',
@@ -672,6 +689,7 @@ module.exports = {
   margin: {
     'auto': 'auto',
     'px': '1px',
+    '2px': '2px',
     '0': '0',
     '1': '0.25rem',
     '2': '0.5rem',
@@ -707,6 +725,7 @@ module.exports = {
 
   negativeMargin: {
     'px': '1px',
+    '2px': '2px',
     '0': '0',
     '1': '0.25rem',
     '2': '0.5rem',

@@ -23,5 +23,7 @@ a {
    @apply .bg-blue .text-white;
 }
 
+@import './refactoringui.css';
+
 
 @tailwind utilities;
