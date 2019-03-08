@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="/css/wp-pusher.css">
+    <link rel="stylesheet" href="/css/app.css">
 </head>
+
 <body class="bg-grey-lighter antialiased font-wp-pusher">
     <div class="flex flex-col md:flex-row justify-between mx-16 py-8 border-b-2 border-grey-light">
         <div>
@@ -23,13 +25,13 @@
             <div class="ml-8 rounded py-3 px-4 border border-grey-darkest text-sm">Account</div>
         </div>
     </div>
-    
+
     <div class="max-w-wp-pusher mx-auto p-8">
         <div class="flex mt-8 pt-4">
             <div class="w-2/3 bg-white rounded-l-lg">
                 <h1 class="p-8 border-b text-3xl leading-none">Checkout</h1>
                 <div class="flex items-center p-8">
-                    <span class="py-2 px-3 border-2 border-blue-wp-pusher rounded-full text-blue-wp-pusher mr-2">1</span> 
+                    <span class="py-2 px-3 border-2 border-blue-wp-pusher rounded-full text-blue-wp-pusher mr-2">1</span>
                     <p class="font-bold">Your Basic Information</p>
                 </div>
                 <div class="flex items-center flex-col md:flex-row px-6 pb-4">
@@ -49,7 +51,7 @@
                     </div>
                 </div>
                 <div class="flex items-center p-8">
-                    <span class="py-2 px-3 border-2 border-blue-wp-pusher rounded-full text-blue-wp-pusher mr-2">2</span> 
+                    <span class="py-2 px-3 border-2 border-blue-wp-pusher rounded-full text-blue-wp-pusher mr-2">2</span>
                     <p class="font-bold">Your Payment Information </p>
                 </div>
                 <div class="px-6 pb-8 border-b">
@@ -95,11 +97,15 @@
                 </div>
                 <p class="italic w-3/4 leading-normal mb-8">Automatically renews after 1 year</p>
                 <div class="flex items-center mb-4">
-                    <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                        <polyline points="22 4 12 14.01 9 11.01" /></svg>
                     <span>Private Repositories</span>
                 </div>
                 <div class="flex items-center mb-8">
-                    <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                        <polyline points="22 4 12 14.01 9 11.01" /></svg>
                     <span>Email Support</span>
                 </div>
                 <div class="mb-12">
@@ -116,4 +122,5 @@
         </div>
     </div>
 </body>
-</html>
+
+</html> 
